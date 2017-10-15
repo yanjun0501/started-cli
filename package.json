@@ -1,0 +1,31 @@
+{
+  "name": "shengvoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack": "^3.7.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^2.0.0-beta.2",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.0"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "server": "webpack-dev-server --content-base ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanjun0501/shengvoice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanjun0501/shengvoice/issues"
+  },
+  "homepage": "https://github.com/yanjun0501/shengvoice#readme"
+}
